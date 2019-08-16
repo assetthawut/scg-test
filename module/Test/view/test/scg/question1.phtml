@@ -1,0 +1,44 @@
+<div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading"><b>Question 1 : </b> 3, 5, 9, 15, X - Please create new function for finding X value.</div>
+  <div class="panel-body"> <b>
+  <?php 
+
+    foreach($answer as $key){
+
+        echo $key.',';
+    }
+
+    echo "X";
+    
+// convert array to string 
+
+
+$answer = implode("|",$this->answer);
+
+$form = $this->form;
+$form->setAttribute('action','/test/question1');
+$form->prepare();
+
+echo $this->form()->openTag($form);
+
+$submit = $form->get('next');
+
+$myhidden = $form->get('my-hidden');
+
+$myhidden->setAttribute('value',$answer);
+
+echo $this->formRow($myhidden);
+echo $this->formRow($submit);
+
+echo $this->form()->closeTag();
+?>
+</b>
+</div>
+  </div>
+  
+
+
+</div>
