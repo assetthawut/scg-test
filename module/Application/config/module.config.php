@@ -20,8 +20,8 @@ return [
                 'options' => [
                     'route'    => '/',
                     'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
+                        'controller' => ScgController::class,
+                        'action'     => 'question1',
                     ],
                 ],
             ],
