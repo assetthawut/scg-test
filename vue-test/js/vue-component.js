@@ -11,7 +11,7 @@ Vue.component('navbarcomponent', {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html#/test target="_blank"">Question 1 <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html#/test" target="_blank">Question 1 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="restaurants.html target="_blank"">Restaurants in Bangsue</a>
