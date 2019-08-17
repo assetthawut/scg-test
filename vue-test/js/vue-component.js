@@ -14,7 +14,7 @@ Vue.component('navbarcomponent', {
           <a class="nav-link" href="index.html#/test" target="_blank">Question 1 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="restaurants.html target="_blank"">Restaurants in Bangsue</a>
+          <a class="nav-link" href="restaurants.html" target="_blank">Restaurants in Bangsue</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cv.html" target="_blank">My CV</a>
