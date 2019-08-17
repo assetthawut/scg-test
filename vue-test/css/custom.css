@@ -1,0 +1,26 @@
+.cv {
+    padding-bottom: 25px;
+}
+
+.profile-name {
+    font-size: 3rem;
+}
+
+.icon {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+.badge {
+    padding: 5px;
+}
+
+.card-bg-light-brown {
+    background-color: #fff7f3;
+}
+
+.card {
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}

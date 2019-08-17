@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sticky-footer-navbar.css">
+    <script src="./js/vue.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/vue-router.js"></script>
+    <script src="./js/vue-resource.min.js"></script>
+</head>
+
+<body>
+    <div id="component_test">
+        <navbarcomponent></navbarcomponent>
+        <footercomponent></footercomponent>
+    </div>
+
+    <div id="restaurantslist" class="container">
+        
+            <div v-html="htmlcontent" class="card-columns">
+                {{getData}}
+            </div>
+    </div>
+
+    <script type="text/javascript" src="js/vue-component.js"></script>
+</body>
+
+</html>
