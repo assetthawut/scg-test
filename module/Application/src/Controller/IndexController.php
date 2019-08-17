@@ -14,7 +14,6 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-        print_r('show');
-        // return new ViewModel();
+        return new ViewModel();
     }
 }
