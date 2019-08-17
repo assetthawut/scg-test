@@ -11,14 +11,17 @@ Vue.component('navbarcomponent', {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html#/test">Question 1 <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html#/test target="_blank"">Question 1 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="restaurants.html">Restaurants in Bangsue</a>
+          <a class="nav-link" href="restaurants.html target="_blank"">Restaurants in Bangsue</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cv.html">My CV</a>
-        </li>        
+          <a class="nav-link" href="cv.html" target="_blank">My CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://phpstack-312963-958621.cloudwaysapps.com/scg-test/public/" target="_blank">My CV</a>
+        </li>                
       </ul>
     </div>
   </nav>
@@ -46,7 +49,7 @@ const question1Route = {
   template: `<div class="container">
      <div class="card">
   <div class="card-header">
-  <b>Question 1 :</b> 3, 5, 9, 15, X  - Please create new function for finding X value.
+  <b>Question 1 :</b> 3, 5, 9, 15, X,Y,Z  - Please create new function for finding X,Y,Z value.
   </div>
   <div class="card-body">
     <p class="card-text">{{ startData }}</p>

@@ -127,13 +127,10 @@ class ScgController extends AbstractActionController
         foreach ($data['events'] as $event)
         {
           $userMessage = $event['message']['text'];
-          // if(strtolower($userMessage) == 'halo')
-          // {
             $message = "Hello Joe";
                   $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($message);
             $result = $bot->replyText($event['replyToken'], $message);
             return $result->getHTTPStatus() . ' ' . $result->getRawBody();
-          // }
         }
       }
       $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('<channel access token>');
