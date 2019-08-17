@@ -22,8 +22,8 @@ class ScgController extends AbstractActionController
 {
     public function indexAction()
     {
-      $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
-      print_r($root);
+      // $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+      // print_r($root);
     }
 
     public function addAction()
