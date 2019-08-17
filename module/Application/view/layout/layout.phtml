@@ -41,6 +41,10 @@
                         <li class=""><a href="<?= $this->url('home') ?>">Home</a></li>
                         <li class=""><a href="test/question1">Question 1</a></li>
                         <li class=""><a href="test/getrestaurant" target="_blank">Restaurant In Bangsue</a></li>
+                        <?php 
+                            $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+                            print_r($root);
+                        ?>
                     </ul>
                 </div>
             </div>
