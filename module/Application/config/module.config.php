@@ -10,7 +10,7 @@ namespace Application;
 use Zend\Router\Http\Literal;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
-use Test\Controller\TestController;
+use Test\Controller\ScgController;
 
 return [
     'router' => [
@@ -20,7 +20,7 @@ return [
                 'options' => [
                     'route'    => '/',
                     'defaults' => [
-                        'controller' => TestController::class,
+                        'controller' => ScgController::class,
                         'action'     => 'question1',
                     ],
                 ],
