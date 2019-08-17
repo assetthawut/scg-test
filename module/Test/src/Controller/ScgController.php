@@ -141,7 +141,7 @@ class ScgController extends AbstractActionController
       // print_r($httpClient);
       // disable layout.
 
-      echo 'done';
+      // echo 'done';
       $view = new \Zend\View\Model\ViewModel();
       $view->setTerminal(true);
       return $view;
