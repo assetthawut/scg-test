@@ -140,6 +140,8 @@ class ScgController extends AbstractActionController
       $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '<channel secret>']);
       // print_r($httpClient);
       // disable layout.
+
+      echo 'done';
       $view = new \Zend\View\Model\ViewModel();
       $view->setTerminal(true);
       return $view;
